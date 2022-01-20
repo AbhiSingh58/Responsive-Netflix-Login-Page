@@ -1,0 +1,106 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.main{
+
+    /* border: 2px solid red; */
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    z-index: 1;
+    opacity: 0.9;
+    /* margin: auto; */
+    text-align: center;
+    
+    
+}
+.main::before{
+    content: "";
+    position:absolute;
+    background-image:url("background\ netflix.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    
+    z-index: -1;
+    opacity: 0.6;
+    top:0;
+    left: 0;
+
+}
+
+
+.navbar{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* border: 2px solid palevioletred; */
+}
+.navbar img{
+    width: 10vw;
+    height: 10vh;
+}
+.navbar button{
+    background-color: #d5212a;
+    width: 7vw;
+    height: 5vh;
+    margin-right: 1em;
+    color: white;
+    font-size:1.4vw;
+    border: none;
+    cursor: pointer;
+}
+.cont1{
+    
+/* border: 2px solid red; */
+    
+    
+}
+#p1{
+    margin-top: 16vh;
+    font-size: 5.2vw;
+    color: white;
+/* outline: 2px solid black; */
+}
+#p2{
+    font-size: 2.2vw;
+    margin-top: 2.2vh;
+    color: white;
+}
+#p3{
+    color: white;
+    margin-top: 0.8em;
+    font-size: 1.7vw;
+
+    /* font-size: 100%; */
+    
+}
+.b{
+    width: 40vw;
+    height: 8vh;
+    margin-top: 2em;
+}
+.g{
+    width: 10vw;
+    margin-top: 2em;
+    height: 8vh;
+    background-color: #d5212a;
+    color:white;
+    font-size: 1.3vw;
+    cursor: pointer;
+    border: none;
+
+}
+.g:hover{
+    background-color: #e60f19;
+    color:white;
+
+
+}
+
+
